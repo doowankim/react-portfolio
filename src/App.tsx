@@ -1,9 +1,10 @@
 import React from 'react';
+import Router from './router';
 
 const App = () => {
 	return (
 		<div>
-			<div>doowan portfolio</div>
+			<Router />
 		</div>
 	);
 };
