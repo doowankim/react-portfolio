@@ -11,9 +11,13 @@ const Header = () => {
 				<Styled.Menu>
 					<li>HOME</li>
 					<li>ABOUT</li>
-					<li>CAREER</li>
 					<li>CONTACT</li>
 				</Styled.Menu>
+				<Styled.SideMenu>
+					<Styled.Icon className="fas fa-lightbulb"></Styled.Icon>
+					<Styled.Icon className="far fa-lightbulb"></Styled.Icon>
+					<Styled.Icon className="fab fa-github-square"></Styled.Icon>
+				</Styled.SideMenu>
 			</Styled.Wrapper>
 		</Styled.Container>
 	);
