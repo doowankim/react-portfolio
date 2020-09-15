@@ -1,5 +1,6 @@
 import React from 'react';
 import * as Styled from './styles';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 	return (
@@ -9,9 +10,15 @@ const Header = () => {
 					<div>PORTFOLIO</div>
 				</Styled.Logo>
 				<Styled.Menu>
-					<li>HOME</li>
-					<li>ABOUT</li>
-					<li>CONTACT</li>
+					<Link to="/home">
+						<li>HOME</li>
+					</Link>
+					<Link to="/about">
+						<li>ABOUT</li>
+					</Link>
+					<Link to="contact">
+						<li>CONTACT</li>
+					</Link>
 				</Styled.Menu>
 				<Styled.SideMenu>
 					<Styled.Icon className="fas fa-lightbulb"></Styled.Icon>

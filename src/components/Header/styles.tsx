@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { darken } from 'polished';
 
 export const Container = styled.div`
-	position: fixed;
+	// position: fixed;
 	width: 100%;
 	height: 50px;
 	background: #495057;

@@ -1,10 +1,9 @@
 import React from 'react';
-import { Header } from '../../components';
 
 const Home = () => {
 	return (
 		<div>
-			<Header />
+			<div style={{ fontSize: '50px' }}>Home Page</div>
 		</div>
 	);
 };
