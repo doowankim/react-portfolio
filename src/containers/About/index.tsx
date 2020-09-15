@@ -1,10 +1,49 @@
 import React from 'react';
+import * as Styled from './styles';
 
 const About = () => {
 	return (
-		<div>
-			<div style={{ fontSize: '50px' }}>About page</div>
-		</div>
+		<Styled.Container>
+			<Styled.Wrapper>
+				<Styled.MainTitle>
+					DOOWAN KIM
+					<Styled.MainSubTitle>(FRONTEND DEVELOPER)</Styled.MainSubTitle>
+				</Styled.MainTitle>
+				<Styled.IntroBox>
+					<Styled.Intro>∙ 프론트엔드 개발자 김두완입니다.</Styled.Intro>
+					<Styled.Intro>
+						∙ Javascript, Typescript를 사용하여 프론트엔드 개발을 하고 있습니다.
+					</Styled.Intro>
+					<Styled.Intro>
+						∙ 높은 질의 코드를 작성하기 위해 항상 노력하고 최선을 다합니다.
+					</Styled.Intro>
+					<Styled.Intro>
+						∙ 현재는 아틸런(행복골프학교)에서 React로 프론트 개발을 하고
+						있습니다.
+					</Styled.Intro>
+					<Styled.SkillBox>
+						<Styled.SkillWrapper>
+							<Styled.SkillStart>Javascript</Styled.SkillStart>
+							<Styled.Skill>Typescript</Styled.Skill>
+							<Styled.Skill>Node</Styled.Skill>
+							<Styled.Skill>React</Styled.Skill>
+							<Styled.Skill>Redux</Styled.Skill>
+							<Styled.Skill>Redux-thunk</Styled.Skill>
+							<Styled.SkillEnd>Redux-pack</Styled.SkillEnd>
+						</Styled.SkillWrapper>
+						<Styled.SkillWrapper>
+							<Styled.Skill>Firebase</Styled.Skill>
+							<Styled.Skill>Styled-components</Styled.Skill>
+						</Styled.SkillWrapper>
+					</Styled.SkillBox>
+					<hr />
+					<Styled.LinkBox>
+						<Styled.GitHub>Github</Styled.GitHub>
+						<Styled.Email>Email</Styled.Email>
+					</Styled.LinkBox>
+				</Styled.IntroBox>
+			</Styled.Wrapper>
+		</Styled.Container>
 	);
 };
 
