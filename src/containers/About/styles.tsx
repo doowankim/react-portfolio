@@ -76,12 +76,38 @@ export const SkillEnd = styled.div`
 	text-align: center;
 `;
 
-export const LinkBox = styled.div``;
+export const LinkBox = styled.div`
+	display: flex;
+`;
 
-export const GitHub = styled.div``;
+export const SmallTitle = styled.div`
+	font-weight: bold;
+`;
 
-export const GitHubAddress = styled.div``;
+export const GitHubAddress = styled.div`
+	margin-left: 50px;
+`;
 
-export const Email = styled.div``;
+export const EmailAddress = styled.div`
+	margin-left: 60px;
+`;
 
-export const EmailAddress = styled.div``;
+export const SecondTitle = styled.div`
+	font-size: 28px;
+	font-weight: bold;
+	margin-top: 50px;
+`;
+
+export const CompanyName = styled.div`
+	font-size: 18px;
+	font-weight: bold;
+	color: lightBlue;
+`;
+
+export const PeriodDescription = styled.div`
+	margin-left: 50px;
+`;
+
+export const PositionDescription = styled.div`
+	margin-left: 38px;
+`;

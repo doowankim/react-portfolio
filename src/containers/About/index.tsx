@@ -38,9 +38,46 @@ const About = () => {
 					</Styled.SkillBox>
 					<hr />
 					<Styled.LinkBox>
-						<Styled.GitHub>Github</Styled.GitHub>
-						<Styled.Email>Email</Styled.Email>
+						<Styled.SmallTitle>Github</Styled.SmallTitle>
+						<a href="https://github.com/doowankim">
+							<Styled.GitHubAddress>
+								https://github.com/doowankim
+							</Styled.GitHubAddress>
+						</a>
 					</Styled.LinkBox>
+					<hr />
+					<Styled.LinkBox>
+						<Styled.SmallTitle>Email</Styled.SmallTitle>
+						<a href="mailto:doowankim11@gmail.com">
+							<Styled.EmailAddress>doowankim11@gmail.com</Styled.EmailAddress>
+						</a>
+					</Styled.LinkBox>
+					<hr />
+					<Styled.SecondTitle>Work Experience</Styled.SecondTitle>
+					<hr />
+					<Styled.CompanyName>
+						아틸런 주식회사 (행복골프학교)
+					</Styled.CompanyName>
+					<hr />
+					<div style={{ display: 'flex' }}>
+						<Styled.SmallTitle>period</Styled.SmallTitle>
+						<Styled.PeriodDescription>20.05 ~ current</Styled.PeriodDescription>
+					</div>
+					<hr />
+					<div style={{ display: 'flex' }}>
+						<Styled.SmallTitle>position</Styled.SmallTitle>
+						<Styled.PositionDescription>
+							Front-end Developer
+						</Styled.PositionDescription>
+					</div>
+					<hr />
+					<div style={{ display: 'flex' }}>
+						<Styled.SmallTitle>projects</Styled.SmallTitle>
+						<Styled.PositionDescription>
+							골프연습장 타석제어 기능, 레슨일지, 보안핀 기능, FCM
+						</Styled.PositionDescription>
+					</div>
+					<hr />
 				</Styled.IntroBox>
 			</Styled.Wrapper>
 		</Styled.Container>
