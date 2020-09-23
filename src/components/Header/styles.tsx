@@ -32,8 +32,15 @@ export const Menu = styled.div`
 		display: inline-block;
 		font-size: 16px;
 		font-weight: bold;
+		color: #fff;
 		margin-right: 16px;
 		cursor: pointer;
+		transition: 0.35s;
+
+		&:hover {
+			color: #909090;
+			transition: 0.35s;
+		}
 	}
 `;
 
