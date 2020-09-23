@@ -18,7 +18,7 @@ const About = () => {
 						∙ 높은 질의 코드를 작성하기 위해 항상 노력하고 최선을 다합니다.
 					</Styled.Intro>
 					<Styled.Intro>
-						∙ 현재는 아틸런(행복골프학교)에서 React로 프론트 개발을 하고
+						∙ 현재 아틸런(행복골프학교)에서 React를 활용해 프론트 개발을 하고
 						있습니다.
 					</Styled.Intro>
 					<Styled.SkillBox>
@@ -59,25 +59,74 @@ const About = () => {
 						아틸런 주식회사 (행복골프학교)
 					</Styled.CompanyName>
 					<hr />
-					<div style={{ display: 'flex' }}>
+					<Styled.SmallTitleBox>
 						<Styled.SmallTitle>period</Styled.SmallTitle>
 						<Styled.PeriodDescription>20.05 ~ current</Styled.PeriodDescription>
-					</div>
+					</Styled.SmallTitleBox>
 					<hr />
-					<div style={{ display: 'flex' }}>
+					<Styled.SmallTitleBox>
 						<Styled.SmallTitle>position</Styled.SmallTitle>
 						<Styled.PositionDescription>
 							Front-end Developer
 						</Styled.PositionDescription>
-					</div>
+					</Styled.SmallTitleBox>
 					<hr />
-					<div style={{ display: 'flex' }}>
+					<Styled.SmallTitleBox>
 						<Styled.SmallTitle>projects</Styled.SmallTitle>
 						<Styled.PositionDescription>
-							골프연습장 타석제어 기능, 레슨일지, 보안핀 기능, FCM
+							골프연습장 타석제어 기능, 레슨일지, 보안핀 기능, 대시보드
 						</Styled.PositionDescription>
-					</div>
+					</Styled.SmallTitleBox>
 					<hr />
+					<div>
+						∙ &nbsp; 행복골프훈련소 회원 관리와 운영을 위한 관리자 웹서비스
+						Front-end 개발/운영개선
+					</div>
+					<br />
+					<div>Plate Controller</div>
+					<div>∙ &nbsp; 골프스크린 프로젝터, 컴퓨터, 타석사용 제어 개발</div>
+					<div>∙ &nbsp; 20.06 ~ 20.07</div>
+					<div>
+						<Styled.SkillBox>
+							<Styled.SkillWrapper>
+								<Styled.SkillStart>Typescript</Styled.SkillStart>
+								<Styled.Skill>React</Styled.Skill>
+							</Styled.SkillWrapper>
+						</Styled.SkillBox>
+					</div>
+					<div>Lesson Report</div>
+					<div>∙ &nbsp; 회원 / 코치 레슨일지 개발</div>
+					<div>∙ &nbsp; 20.05 ~ 20.08</div>
+					<div>
+						<Styled.SkillBox>
+							<Styled.SkillWrapper>
+								<Styled.SkillStart>Typescript</Styled.SkillStart>
+								<Styled.Skill>React</Styled.Skill>
+							</Styled.SkillWrapper>
+						</Styled.SkillBox>
+					</div>
+					<div>Check In</div>
+					<div>∙ &nbsp; 회원 체크인 개발 / 운영 개선</div>
+					<div>∙ &nbsp; 20.08 ~ 20.09</div>
+					<div>
+						<Styled.SkillBox>
+							<Styled.SkillWrapper>
+								<Styled.SkillStart>Typescript</Styled.SkillStart>
+								<Styled.Skill>React</Styled.Skill>
+							</Styled.SkillWrapper>
+						</Styled.SkillBox>
+					</div>
+					<div>Dashboard</div>
+					<div>∙ &nbsp; 관리자 대시보드 페이지 개발 / 운영 개선</div>
+					<div>∙ &nbsp; 20.09 ~ 20.10</div>
+					<div>
+						<Styled.SkillBox>
+							<Styled.SkillWrapper>
+								<Styled.SkillStart>Typescript</Styled.SkillStart>
+								<Styled.Skill>React</Styled.Skill>
+							</Styled.SkillWrapper>
+						</Styled.SkillBox>
+					</div>
 				</Styled.IntroBox>
 			</Styled.Wrapper>
 		</Styled.Container>

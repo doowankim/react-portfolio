@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { darken } from 'polished';
 
 export const Container = styled.div`
 	// position: fixed;
@@ -43,13 +42,16 @@ export const SideMenu = styled.div`
 `;
 
 export const Icon = styled.i`
+	position: relative;
 	font-size: 30px;
 	cursor: pointer;
 	color: #fff;
 	margin-top: 10px;
 	margin-left: 15px;
+	transition: 0.35s;
 
 	&:hover {
-		color: ${darken(0.02, '#fff')};
+		transition: 0.35s;
+		color: #909090;
 	}
 `;

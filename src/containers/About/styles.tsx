@@ -8,7 +8,6 @@ export const Container = styled.div`
 `;
 
 export const Wrapper = styled.div`
-	border: 1px solid red;
 	padding: 20px;
 `;
 
@@ -32,7 +31,6 @@ export const Intro = styled.div``;
 
 export const SkillBox = styled.div`
 	height: 70px;
-	border: 1px solid blue;
 	margin-top: 20px;
 `;
 
@@ -110,4 +108,8 @@ export const PeriodDescription = styled.div`
 
 export const PositionDescription = styled.div`
 	margin-left: 38px;
+`;
+
+export const SmallTitleBox = styled.div`
+	display: flex;
 `;

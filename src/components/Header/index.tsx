@@ -21,9 +21,11 @@ const Header = () => {
 					</Link>
 				</Styled.Menu>
 				<Styled.SideMenu>
-					<Styled.Icon className="fas fa-lightbulb"></Styled.Icon>
-					<Styled.Icon className="far fa-lightbulb"></Styled.Icon>
-					<Styled.Icon className="fab fa-github-square"></Styled.Icon>
+					<Styled.Icon className="fas fa-moon" />
+					<Styled.Icon className="far fa-lightbulb" />
+					<a href="https://github.com/doowankim">
+						<Styled.Icon className="fab fa-github-square"></Styled.Icon>
+					</a>
 				</Styled.SideMenu>
 			</Styled.Wrapper>
 		</Styled.Container>
