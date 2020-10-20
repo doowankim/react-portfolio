@@ -1,5 +1,6 @@
 import React from 'react';
 import * as Styled from './styles';
+import { SkillTabBox } from '../../components';
 
 const About = () => {
 	return (
@@ -21,21 +22,21 @@ const About = () => {
 						∙ 현재 아틸런(행복골프학교)에서 React를 활용해 프론트 개발을 하고
 						있습니다.
 					</Styled.Intro>
-					<Styled.SkillBox>
-						<Styled.SkillWrapper>
-							<Styled.SkillStart>Javascript</Styled.SkillStart>
-							<Styled.Skill>Typescript</Styled.Skill>
-							<Styled.Skill>Node</Styled.Skill>
-							<Styled.Skill>React</Styled.Skill>
-							<Styled.Skill>Redux</Styled.Skill>
-							<Styled.Skill>Redux-thunk</Styled.Skill>
-							<Styled.SkillEnd>Redux-pack</Styled.SkillEnd>
-						</Styled.SkillWrapper>
-						<Styled.SkillWrapper>
-							<Styled.Skill>Firebase</Styled.Skill>
-							<Styled.Skill>Styled-components</Styled.Skill>
-						</Styled.SkillWrapper>
-					</Styled.SkillBox>
+					<div>
+						<Styled.FlexBox>
+							<SkillTabBox body="Javascript" />
+							<SkillTabBox body="Typescript" />
+							<SkillTabBox body="Node" />
+							<SkillTabBox body="React" />
+							<SkillTabBox body="Redux" />
+							<SkillTabBox body="Redux-thunk" />
+							<SkillTabBox body="Redux-pack" />
+						</Styled.FlexBox>
+						<Styled.FlexBox>
+							<SkillTabBox body="Firebase" />
+							<SkillTabBox body="Styled-components" />
+						</Styled.FlexBox>
+					</div>
 					<hr />
 					<Styled.LinkBox>
 						<Styled.SmallTitle>Github</Styled.SmallTitle>
@@ -87,45 +88,37 @@ const About = () => {
 					<div>∙ &nbsp; 골프스크린 프로젝터, 컴퓨터, 타석사용 제어 개발</div>
 					<div>∙ &nbsp; 20.06 ~ 20.07</div>
 					<div>
-						<Styled.SkillBox>
-							<Styled.SkillWrapper>
-								<Styled.SkillStart>Typescript</Styled.SkillStart>
-								<Styled.Skill>React</Styled.Skill>
-							</Styled.SkillWrapper>
-						</Styled.SkillBox>
+						<Styled.FlexBox>
+							<SkillTabBox body="Typescript" />
+							<SkillTabBox body="React" />
+						</Styled.FlexBox>
 					</div>
 					<div>Lesson Report</div>
 					<div>∙ &nbsp; 회원 / 코치 레슨일지 개발</div>
 					<div>∙ &nbsp; 20.05 ~ 20.08</div>
 					<div>
-						<Styled.SkillBox>
-							<Styled.SkillWrapper>
-								<Styled.SkillStart>Typescript</Styled.SkillStart>
-								<Styled.Skill>React</Styled.Skill>
-							</Styled.SkillWrapper>
-						</Styled.SkillBox>
+						<Styled.FlexBox>
+							<SkillTabBox body="Typescript" />
+							<SkillTabBox body="React" />
+						</Styled.FlexBox>
 					</div>
 					<div>Check In</div>
 					<div>∙ &nbsp; 회원 체크인 개발 / 운영 개선</div>
 					<div>∙ &nbsp; 20.08 ~ 20.09</div>
 					<div>
-						<Styled.SkillBox>
-							<Styled.SkillWrapper>
-								<Styled.SkillStart>Typescript</Styled.SkillStart>
-								<Styled.Skill>React</Styled.Skill>
-							</Styled.SkillWrapper>
-						</Styled.SkillBox>
+						<Styled.FlexBox>
+							<SkillTabBox body="Typescript" />
+							<SkillTabBox body="React" />
+						</Styled.FlexBox>
 					</div>
 					<div>Dashboard</div>
 					<div>∙ &nbsp; 관리자 대시보드 페이지 개발 / 운영 개선</div>
 					<div>∙ &nbsp; 20.09 ~ 20.10</div>
 					<div>
-						<Styled.SkillBox>
-							<Styled.SkillWrapper>
-								<Styled.SkillStart>Typescript</Styled.SkillStart>
-								<Styled.Skill>React</Styled.Skill>
-							</Styled.SkillWrapper>
-						</Styled.SkillBox>
+						<Styled.FlexBox>
+							<SkillTabBox body="Typescript" />
+							<SkillTabBox body="React" />
+						</Styled.FlexBox>
 					</div>
 				</Styled.IntroBox>
 			</Styled.Wrapper>

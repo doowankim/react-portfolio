@@ -29,6 +29,10 @@ export const IntroBox = styled.div`
 
 export const Intro = styled.div``;
 
+export const FlexBox = styled.div`
+	display: flex;
+`;
+
 export const SkillBox = styled.div`
 	height: 70px;
 	margin-top: 20px;

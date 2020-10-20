@@ -6,7 +6,8 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
-    background-color: #fff;
+	background-color: #fff;
+	font-size: 10px;
   }
 `;
 
