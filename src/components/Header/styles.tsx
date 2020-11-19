@@ -30,18 +30,19 @@ export const Menu = styled.div`
 
 	li {
 		display: inline-block;
+		height: 47px;
 		font-size: 16px;
 		font-weight: bold;
 		color: #fff;
 		margin-right: 16px;
 		cursor: pointer;
 		transition: 0.35s;
-
+		
 		&:hover {
 			color: #909090;
 			transition: 0.35s;
 		}
-	}
+    }
 `;
 
 export const SideMenu = styled.div`
