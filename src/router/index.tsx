@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import { Header, Footer } from "../components";
+import { Header } from "../components";
 import { Home, About } from "../containers";
 
 const Router = () => {
@@ -15,7 +15,6 @@ const Router = () => {
           <About />
         </Route>
       </Switch>
-      <Footer />
     </BrowserRouter>
   );
 };
