@@ -180,6 +180,7 @@ const About = () => {
           </div>
         </Styled.IntroBox>
       </Styled.Wrapper>
+      <Styled.Icon className="fas fa-angle-double-up" />
     </Styled.Container>
   );
 };

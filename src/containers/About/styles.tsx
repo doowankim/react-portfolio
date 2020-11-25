@@ -137,3 +137,9 @@ export const SmallTitleBox = styled.div`
 export const DetailDescription = styled.div`
   font-size: 1.8em;
 `;
+
+export const Icon = styled.i`
+  font-size: 1.8em;
+  float: right;
+  cursor: pointer;
+`;
