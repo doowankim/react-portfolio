@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   position: relative;
-  width: 60em;
+  max-width: 68em;
   height: 100%;
-  left: 35%;
+  margin: auto;
 `;
 
 export const Wrapper = styled.div`
@@ -13,8 +13,9 @@ export const Wrapper = styled.div`
 
 export const MainTitle = styled.div`
   display: flex;
-  font-size: 3.2em;
+  font-size: 3.6em;
   font-weight: bold;
+  justify-content: center;
 `;
 
 export const MainSubTitle = styled.div`
@@ -28,7 +29,15 @@ export const IntroBox = styled.div`
 `;
 
 export const Intro = styled.div`
-  font-size: 1.4em;
+  font-size: 1.8em;
+`;
+
+export const FlexboxWrapper = styled.div``;
+
+export const UseSkill = styled.div`
+  margin-top: 20px;
+  font-size: 1.8em;
+  font-weight: bold;
 `;
 
 export const FlexBox = styled.div`
@@ -86,17 +95,17 @@ export const LinkBox = styled.div`
 
 export const SmallTitle = styled.div`
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 1.8em;
 `;
 
 export const GitHubAddress = styled.div`
   margin-left: 50px;
-  font-size: 1.4em;
+  font-size: 1.8em;
 `;
 
 export const EmailAddress = styled.div`
   margin-left: 60px;
-  font-size: 1.4em;
+  font-size: 1.8em;
 `;
 
 export const SecondTitle = styled.div`
@@ -113,12 +122,12 @@ export const CompanyName = styled.div`
 
 export const PeriodDescription = styled.div`
   margin-left: 50px;
-  font-size: 1.4em;
+  font-size: 1.8em;
 `;
 
 export const PositionDescription = styled.div`
   margin-left: 38px;
-  font-size: 1.4em;
+  font-size: 1.8em;
 `;
 
 export const SmallTitleBox = styled.div`
@@ -126,5 +135,5 @@ export const SmallTitleBox = styled.div`
 `;
 
 export const DetailDescription = styled.div`
-  font-size: 1.4em;
+  font-size: 1.8em;
 `;

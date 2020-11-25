@@ -11,18 +11,20 @@ const About = () => {
           <Styled.MainSubTitle>(FRONTEND DEVELOPER)</Styled.MainSubTitle>
         </Styled.MainTitle>
         <Styled.IntroBox>
-          <Styled.Intro>∙ 프론트엔드 개발자 김두완입니다.</Styled.Intro>
+          <Styled.Intro>∙ FE 개발자 김두완</Styled.Intro>
           <Styled.Intro>
-            ∙ Javascript, Typescript를 사용하여 프론트엔드 개발을 하고 있습니다.
+            ∙ Javascript, Typescript를 사용하여 Web Front End 개발
           </Styled.Intro>
           <Styled.Intro>
-            ∙ 높은 질의 코드를 작성하기 위해 항상 노력하고 최선을 다합니다.
+            ∙ 높은 질의 코드를 작성하기 위해 항상 노력하는 중
           </Styled.Intro>
           <Styled.Intro>
             ∙ 현재 아틸런(행복골프학교)에서 React를 활용해 프론트 개발을 하고
-            있습니다.
+            있다.
           </Styled.Intro>
-          <div>
+          <Styled.FlexboxWrapper>
+            <hr />
+            <Styled.UseSkill>사용 기술 스펙</Styled.UseSkill>
             <Styled.FlexBox>
               <SkillTabBox body="Javascript" />
               <SkillTabBox body="Typescript" />
@@ -36,7 +38,7 @@ const About = () => {
               <SkillTabBox body="Firebase" />
               <SkillTabBox body="Styled-components" />
             </Styled.FlexBox>
-          </div>
+          </Styled.FlexboxWrapper>
           <hr />
           <Styled.LinkBox>
             <Styled.SmallTitle>Github</Styled.SmallTitle>

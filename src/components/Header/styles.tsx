@@ -12,7 +12,7 @@ export const Container = styled.div`
 export const Wrapper = styled.div`
   display: flex;
   justify-content: center;
-  line-height: 95px;
+  line-height: 9.5em;
 `;
 
 export const Logo = styled.div`
